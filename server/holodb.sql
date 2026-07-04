@@ -5110,12 +5110,12 @@ DELETE FROM `rooms`;
 /*!40000 ALTER TABLE `rooms` DISABLE KEYS */;
 INSERT INTO `rooms` (`id`, `name`, `description`, `owner`, `category`, `model`, `ccts`, `floor`, `wallpaper`, `state`, `password`, `showname`, `superusers`, `visitors_now`, `visitors_max`, `landscape`) VALUES
 	(101, 'Welcome Lounge', 'welcome_lounge', NULL, 3, 'newbie_lobby', 'hh_room_nlobby', 0, 0, 0, NULL, '1', '0', 0, 35, 0.0),
-	(102, 'Pool - A', 'habbo_lido', NULL, 5, 'pool_a', 'hh_room_pool_coke,hh_people_pool', 0, 0, 0, NULL, '1', '0', 0, 25, 0.0),
+	(102, 'Pool - A', 'habbo_lido', NULL, 5, 'pool_a', 'hh_room_pool,hh_people_pool', 0, 0, 0, NULL, '1', '0', 0, 25, 0.0),
 	(103, 'Holoween theatre', 'theatredrome_halloween', NULL, 7, 'theater', 'hh_room_theater_halloween', 0, 0, 0, NULL, '1', '0', 0, 40, 0.0),
 	(104, 'The Library', 'library', NULL, 7, 'library', 'hh_room_library_twr_trr', 0, 0, 0, NULL, '1', '0', 0, 20, 0.0),
 	(105, 'The Sunset Cafe', 'sunset_cafe', NULL, 9, 'sunset_cafe', 'hh_room_sunsetcafe', 0, 0, 0, NULL, '1', '0', 0, 20, 0.0),
 	(106, 'The Pub', 'the_dirty_duck_pub', NULL, 9, 'pub_a', 'hh_room_pub', 0, 0, 0, NULL, '1', '0', 0, 35, 0.0),
-	(107, 'Pool - B', 'habbo_lido_ii', NULL, 5, 'pool_b', 'hh_room_pool_coke,hh_people_pool', 0, 0, 0, NULL, '1', '0', 0, 25, 0.0),
+	(107, 'Pool - B', 'habbo_lido_ii', NULL, 5, 'pool_b', 'hh_room_pool,hh_people_pool', 0, 0, 0, NULL, '1', '0', 0, 25, 0.0),
 	(108, 'Floatinggarden', 'floatinggarden', NULL, 5, 'floatinggarden', 'hh_room_floatinggarden', 0, 0, 0, NULL, '1', '0', 0, 30, 0.0),
 	(109, 'Rooftop Rumble', 'rooftop_rumble', NULL, 5, 'md_a', 'hh_room_terrace,hh_paalu,hh_people_pool,hh_people_paalu', 0, 0, 0, NULL, '1', '0', 0, 25, 0.0),
 	(110, 'Picnic Fields', 'picnic', NULL, 5, 'picnic', 'hh_room_picnic', 0, 0, 0, NULL, '1', '0', 0, 25, 0.0),
