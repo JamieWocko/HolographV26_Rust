@@ -1,0 +1,9 @@
+pub mod catalogue_manager;
+pub mod event_manager;
+pub mod rank_manager;
+pub mod recycler_manager;
+pub mod room_manager;
+pub mod sound_machine_manager;
+pub mod staff_manager;
+pub mod string_manager;
+pub mod user_manager;

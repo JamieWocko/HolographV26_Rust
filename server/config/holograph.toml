@@ -1,0 +1,17 @@
+[server]
+game_port = 30000
+game_max_connections = 2000
+mus_port = 30001
+mus_host = "127.0.0.1"
+
+[database]
+host = "127.0.0.1"
+port = 3306
+name = "holodb"
+user = "root"
+password = "usbw"
+max_connections = 20
+
+[emulator]
+default_lang = "en"
+enable_welcome_message = true
